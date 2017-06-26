@@ -1,0 +1,22 @@
+#preloader  {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: #fefefe;
+			z-index: 999999;
+			height: 100%;
+		}
+
+		#status  {
+			width: 250px;
+			height: 250px;
+			position: absolute;
+			left: 50%;
+			top: 45%;
+			background-image: url("../img/ripple.gif");
+			background-repeat: no-repeat;
+			background-position: center;
+			margin: -100px 0 0 -100px;
+		}
